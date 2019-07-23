@@ -1,6 +1,8 @@
 class Lesson < ApplicationRecord
+  # Associations
   belongs_to :user
 
+  # Validations
   validates :title,
             presence: true
 
